@@ -1,0 +1,51 @@
+body {
+  background-color: rgba(255, 255, 255, 0.507);
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-wrapper {
+  background-color: rgb(194, 70, 70);
+  width: 400px;
+  border-radius: 16px;
+  box-shadow: 5px 7px 7px 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next {
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: #791d14;
+  color: white;
+  flex: 1;
+  cursor: pointer;
+  margin: 4px;
+  border-radius: 25px;
+  display: flex;
+}
+
+.save {
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: #791d14;
+  color: white;
+  flex: 1;
+  cursor: pointer;
+  margin: 4px;
+  border-radius: 25px;
+}
