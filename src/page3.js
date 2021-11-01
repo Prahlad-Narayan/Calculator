@@ -39,7 +39,7 @@ const Page3 = () => {
           }}
         />
         <div className="row">
-          <div>
+          <div className="page3">
             <div className="buttons">
               <Button symbol="/" handleClick={addtoText} />
             </div>

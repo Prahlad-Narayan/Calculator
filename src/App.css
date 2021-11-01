@@ -49,3 +49,9 @@ body {
   margin: 4px;
   border-radius: 25px;
 }
+
+.page3 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
