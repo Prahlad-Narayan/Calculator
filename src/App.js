@@ -5,6 +5,7 @@ import Input from "./COMPS/Input";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const App = () => {
   //const [text, setText] = useState("");
@@ -21,6 +22,12 @@ const App = () => {
     let number = text.slice(0, -1);
     dispatch(setTxt(number));
   };
+  // useEffect(() => {
+  //   if (isNaN(text) == 1) {
+  //     alert("Invalid Input");
+  //     dispatch(setTxt(""));
+  //   }
+  // }, [text]);
   return (
     <div className="App">
       <div className="calc-wrapper">
