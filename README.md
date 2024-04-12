@@ -1,4 +1,4 @@
-# Getting Started with Iphone Calculator React App
+# Getting Started with iPhone Calculator React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
